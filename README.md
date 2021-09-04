@@ -17,5 +17,9 @@ An 'X' indicates a live cell and 'O' indicates an empty space.
 The program also accepts a positive integer value indicating the number of generations to compute,
 and shows the final grid.
 
+Start.txt contains the initial configuration for the grid and the number of generations to be calculated.
+Errors will occur if the initial grid is not 20X20 and/or if the number of generations entered is not a positive integer value.
+It assumed that starting grid will only contain the valid characters: 'X', 'O'.
+
 This program utilize threading (a thread for each cell in the grid) to calculate the next generation.
 
