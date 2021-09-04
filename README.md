@@ -7,10 +7,11 @@ A Java Program that Implements the Game of Life by John Conway, with the followi
 4. Any dead cell with exactly the three live neighbors becomes a live cell, as if by reproduction.
 
 The program accepts a 20X20 by grid to initialize the starting grid, similar to this 4X4 grid:
-\OOOO
-\OXXO
-\OXXO
-\OOOO
+
+OOOO  
+OXXO  
+OXXO  
+OOOO  
 
 An 'X' indicates a live cell and 'O' indicates an empty space.
 The program also accepts a positive integer value indicating the number of generations to compute,
